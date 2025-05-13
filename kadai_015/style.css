@@ -1,16 +1,20 @@
 html {
   font-size: 20px;
 }
+
 body {
-  font-family: "Arial","meiryo", sans-serif;
-}
-h1 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Arial", "Meiryo", sans-serif;
   text-align: center;
-  text-shadow: 1px 1px 2px blue;
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
   font-size: 2rem;
   letter-spacing: 1.2em;
+  text-shadow: 3px 3px 2px rgb(221, 221, 213);
+  border-bottom: solid 3px rgb(115, 115, 114);
 }
+
 .text-pink {
   color: rgb(255, 192, 203);
 }
@@ -18,19 +22,10 @@ h1 {
   color: skyblue;
 }
 
-h2, #basic, .blue {
-  color: #87ceeb;
+#basic > p {
+  font-weight: bold;
 }
 
-.pink {
-  color: rgb(255, 192, 203);
-}
-h2 {
-  text-align: center;
-}
-p {
-  text-align: center;
-}
 #basic .bold-text {
   font-weight: bold;
 }
