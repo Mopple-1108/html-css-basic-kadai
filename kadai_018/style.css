@@ -36,6 +36,7 @@ position: relative;
     height: 200px;
     background-color: #87ceeb;
 }
+
 #middle-child02 {
     position: absolute;
     top: 300px;
@@ -76,30 +77,3 @@ position: relative;
   position: relative;
   left: 400px;
 }
-
-#bottom-child01,
-#bottom-child02,
-#bottom-child03 {
-  width: 400px;
-  height: 100px;
-  background-color: #e5dcf0;
-}
-
-#bottom-child02,
-#bottom-child03 {
-  margin-left: -200px;
-}
-
-#bottom-child01 {
-  left: 0;
-}
-
-#bottom-child02 {
-  left: 100%;
-  transform: translateX(-100%);
-}
-
-#bottom-child03 {
-  left: 150%;
-  transform: translateX(-150%);
-} 
